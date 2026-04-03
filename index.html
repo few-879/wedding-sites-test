@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Wedding invitation for Jasmin and Adam with German, English, and Polish content."
+    />
+    <title>Jasmin & Adam</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,400;9..144,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="bg-orb bg-orb-left" aria-hidden="true"></div>
+    <div class="bg-orb bg-orb-right" aria-hidden="true"></div>
+
+    <div class="page-shell">
+      <header class="hero panel" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow" data-lang="de">Wir heiraten</p>
+          <p class="eyebrow" data-lang="en">We are getting married</p>
+          <p class="eyebrow" data-lang="pl">Bierzemy ślub</p>
+
+          <h1>Jasmin & Adam</h1>
+
+          <p class="hero-date" data-lang="de">Samstag, 15. Juni 2024 · 16:00 Uhr</p>
+          <p class="hero-date" data-lang="en">Saturday, 15 June 2024 · 4:00 PM</p>
+          <p class="hero-date" data-lang="pl">Sobota, 15 czerwca 2024 · 16:00</p>
+
+          <div class="hero-intro">
+            <div data-lang="de">
+              <p>Wir freuen uns sehr, diesen Tag mit euch zu feiern.</p>
+              <p>
+                Auf dieser Seite findet ihr alle wichtigen Informationen zu Ort, Ablauf,
+                Anreise und RSVP.
+              </p>
+            </div>
+            <div data-lang="en">
+              <p>We are excited to celebrate this day with you.</p>
+              <p>
+                On this page you will find all the important details about the venue,
+                schedule, travel, and RSVP.
+              </p>
+            </div>
+            <div data-lang="pl">
+              <p>Cieszymy się, że możemy świętować ten dzień razem z Wami.</p>
+              <p>
+                Na tej stronie znajdziecie wszystkie ważne informacje o miejscu,
+                planie dnia, dojeździe i RSVP.
+              </p>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#rsvp" data-lang="de">RSVP öffnen</a>
+            <a class="button button-primary" href="#rsvp" data-lang="en">Open RSVP</a>
+            <a class="button button-primary" href="#rsvp" data-lang="pl">Otwórz RSVP</a>
+            <a class="button button-secondary" href="#location" data-lang="de">Zum Ort</a>
+            <a class="button button-secondary" href="#location" data-lang="en">View location</a>
+            <a class="button button-secondary" href="#location" data-lang="pl">Zobacz miejsce</a>
+          </div>
+        </div>
+
+        <aside class="hero-aside">
+          <div class="language-switcher" aria-label="Language switcher">
+            <button type="button" class="lang-button" data-lang-switch="de" aria-pressed="true">DE</button>
+            <button type="button" class="lang-button" data-lang-switch="en" aria-pressed="false">EN</button>
+            <button type="button" class="lang-button" data-lang-switch="pl" aria-pressed="false">PL</button>
+          </div>
+
+          <div class="botanical-card">
+            <svg viewBox="0 0 320 320" role="img" aria-label="Decorative botanical illustration">
+              <defs>
+                <linearGradient id="leafGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#e4f1e8" />
+                  <stop offset="100%" stop-color="#c7dcc7" />
+                </linearGradient>
+              </defs>
+              <circle cx="160" cy="160" r="118" fill="none" stroke="rgba(60,89,64,0.12)" stroke-width="2" />
+              <path d="M160 54 C150 96, 150 124, 160 160" fill="none" stroke="#5f7d64" stroke-width="2.5" stroke-linecap="round" />
+              <path d="M160 104 C134 100, 110 88, 92 66" fill="none" stroke="#5f7d64" stroke-width="2.5" stroke-linecap="round" />
+              <path d="M160 128 C192 124, 214 108, 232 86" fill="none" stroke="#5f7d64" stroke-width="2.5" stroke-linecap="round" />
+              <path d="M160 142 C137 162, 118 186, 104 212" fill="none" stroke="#5f7d64" stroke-width="2.5" stroke-linecap="round" />
+              <path d="M160 152 C188 176, 204 202, 216 230" fill="none" stroke="#5f7d64" stroke-width="2.5" stroke-linecap="round" />
+              <path d="M160 104 C178 90, 196 84, 214 82" fill="none" stroke="#c98b8b" stroke-width="2" stroke-linecap="round" />
+              <path d="M160 132 C146 118, 124 112, 104 112" fill="none" stroke="#c98b8b" stroke-width="2" stroke-linecap="round" />
+              <ellipse cx="96" cy="80" rx="18" ry="9" transform="rotate(-35 96 80)" fill="url(#leafGlow)" stroke="#7f9d81" stroke-width="1.5" />
+              <ellipse cx="230" cy="94" rx="18" ry="9" transform="rotate(35 230 94)" fill="url(#leafGlow)" stroke="#7f9d81" stroke-width="1.5" />
+              <ellipse cx="109" cy="205" rx="18" ry="9" transform="rotate(-55 109 205)" fill="url(#leafGlow)" stroke="#7f9d81" stroke-width="1.5" />
+              <ellipse cx="214" cy="220" rx="18" ry="9" transform="rotate(55 214 220)" fill="url(#leafGlow)" stroke="#7f9d81" stroke-width="1.5" />
+              <circle cx="160" cy="160" r="26" fill="#f7efe4" stroke="#c98b8b" stroke-width="1.5" />
+              <circle cx="160" cy="160" r="10" fill="#dfb4a6" />
+            </svg>
+          </div>
+
+          <div class="quick-facts">
+            <div class="fact-card">
+              <span class="fact-label" data-lang="de">RSVP bis</span>
+              <span class="fact-label" data-lang="en">RSVP by</span>
+              <span class="fact-label" data-lang="pl">RSVP do</span>
+              <strong>Freitag, 31. Mai 2024</strong>
+            </div>
+            <div class="fact-card">
+              <span class="fact-label" data-lang="de">Ort</span>
+              <span class="fact-label" data-lang="en">Venue</span>
+              <span class="fact-label" data-lang="pl">Miejsce</span>
+              <strong>Alb Schlosshof Freizeitheim</strong>
+            </div>
+          </div>
+        </aside>
+      </header>
+
+      <main>
+        <section class="panel" id="welcome">
+          <div class="section-title">
+            <p class="eyebrow" data-lang="de">Willkommen</p>
+            <p class="eyebrow" data-lang="en">Welcome</p>
+            <p class="eyebrow" data-lang="pl">Witamy</p>
+            <h2 data-lang="de">Ein paar Worte vor dem großen Tag</h2>
+            <h2 data-lang="en">A few words before the big day</h2>
+            <h2 data-lang="pl">Kilka słów przed tym wyjątkowym dniem</h2>
+          </div>
+
+          <div class="copy-grid">
+            <div class="copy-card" data-lang="de">
+              <p>
+                Wir freuen uns auf einen eleganten, entspannten Tag mit euch inmitten von
+                Natur, guten Gesprächen und schönen Momenten.
+              </p>
+              <p>
+                Bitte nehmt euch einen Moment für die Informationen auf dieser Seite und
+                gebt uns anschließend über das RSVP-Formular Bescheid.
+              </p>
+            </div>
+            <div class="copy-card" data-lang="en">
+              <p>
+                We are looking forward to an elegant, relaxed day with you, surrounded by
+                nature, good conversations, and beautiful moments.
+              </p>
+              <p>
+                Please take a moment to read the information on this page and then let us
+                know via the RSVP form.
+              </p>
+            </div>
+            <div class="copy-card" data-lang="pl">
+              <p>
+                Cieszymy się na elegancki, spokojny dzień w otoczeniu natury, miłych
+                rozmów i pięknych chwil.
+              </p>
+              <p>
+                Prosimy, poświęćcie chwilę na informacje na tej stronie, a potem dajcie
+                nam znać przez formularz RSVP.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" id="schedule">
+          <div class="section-title">
+            <p class="eyebrow" data-lang="de">Ablauf</p>
+            <p class="eyebrow" data-lang="en">Schedule</p>
+            <p class="eyebrow" data-lang="pl">Plan dnia</p>
+            <h2 data-lang="de">Der Tagesablauf</h2>
+            <h2 data-lang="en">The day’s flow</h2>
+            <h2 data-lang="pl">Plan dnia</h2>
+          </div>
+
+          <div class="schedule-grid">
+            <article class="schedule-card" data-lang="de">
+              <span class="schedule-number">15.</span>
+              <h3>Wedding Party</h3>
+              <p>Ein festlicher Start in einen besonderen Abend.</p>
+            </article>
+            <article class="schedule-card" data-lang="en">
+              <span class="schedule-number">15.</span>
+              <h3>Wedding Party</h3>
+              <p>A celebratory start to a beautiful evening.</p>
+            </article>
+            <article class="schedule-card" data-lang="pl">
+              <span class="schedule-number">15.</span>
+              <h3>Przyjęcie weselne</h3>
+              <p>Uroczysty początek wyjątkowego wieczoru.</p>
+            </article>
+
+            <article class="schedule-card" data-lang="de">
+              <span class="schedule-number">16.</span>
+              <h3>Brunch Buffet</h3>
+              <p>Gemeinsam genießen, plaudern und den Tag entspannt ausklingen lassen.</p>
+            </article>
+            <article class="schedule-card" data-lang="en">
+              <span class="schedule-number">16.</span>
+              <h3>Brunch Buffet</h3>
+              <p>Enjoy, chat, and end the day in a relaxed atmosphere.</p>
+            </article>
+            <article class="schedule-card" data-lang="pl">
+              <span class="schedule-number">16.</span>
+              <h3>Bufet brunchowy</h3>
+              <p>Smacznie, swobodnie i w spokojnym rytmie zakończymy ten dzień.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="panel" id="location">
+          <div class="section-title">
+            <p class="eyebrow" data-lang="de">Location</p>
+            <p class="eyebrow" data-lang="en">Location</p>
+            <p class="eyebrow" data-lang="pl">Miejsce</p>
+            <h2 data-lang="de">Alb Schlosshof Freizeitheim</h2>
+            <h2 data-lang="en">Alb Schlosshof Freizeitheim</h2>
+            <h2 data-lang="pl">Alb Schlosshof Freizeitheim</h2>
+          </div>
+
+          <div class="location-layout">
+            <div class="location-copy">
+              <div class="address-card" data-lang="de">
+                <p>Schlosshof 52</p>
+                <p>89604 Schelklingen</p>
+              </div>
+              <div class="address-card" data-lang="en">
+                <p>Schlosshof 52</p>
+                <p>89604 Schelklingen</p>
+              </div>
+              <div class="address-card" data-lang="pl">
+                <p>Schlosshof 52</p>
+                <p>89604 Schelklingen</p>
+              </div>
+
+              <div class="link-row">
+                <a class="button button-secondary" href="https://maps.google.com" target="_blank" rel="noreferrer" data-lang="de">Google Maps öffnen</a>
+                <a class="button button-secondary" href="https://maps.google.com" target="_blank" rel="noreferrer" data-lang="en">Open Google Maps</a>
+                <a class="button button-secondary" href="https://maps.google.com" target="_blank" rel="noreferrer" data-lang="pl">Otwórz Google Maps</a>
+              </div>
+
+              <div class="location-note" data-lang="de">
+                <p>Ankunft ist mit Zug oder Auto möglich. Parkplätze sind vor Ort verfügbar.</p>
+              </div>
+              <div class="location-note" data-lang="en">
+                <p>You can arrive by train or car. Parking is available on site.</p>
+              </div>
+              <div class="location-note" data-lang="pl">
+                <p>Można dojechać pociągiem lub samochodem. Na miejscu dostępny jest parking.</p>
+              </div>
+            </div>
+
+            <div class="travel-links">
+              <div class="travel-card" data-lang="de">
+                <span class="travel-label">Hotel Schelklingen</span>
+                <a href="https://hotelschelklingen.com" target="_blank" rel="noreferrer">Hotel Schelklingen</a>
+              </div>
+              <div class="travel-card" data-lang="en">
+                <span class="travel-label">Hotel Schelklingen</span>
+                <a href="https://hotelschelklingen.com" target="_blank" rel="noreferrer">Hotel Schelklingen</a>
+              </div>
+              <div class="travel-card" data-lang="pl">
+                <span class="travel-label">Hotel Schelklingen</span>
+                <a href="https://hotelschelklingen.com" target="_blank" rel="noreferrer">Hotel Schelklingen</a>
+              </div>
+
+              <div class="travel-card" data-lang="de">
+                <span class="travel-label">Gasthof zum Schwanen</span>
+                <a href="https://gasthofzumschwanen.com" target="_blank" rel="noreferrer">Gasthof zum Schwanen</a>
+              </div>
+              <div class="travel-card" data-lang="en">
+                <span class="travel-label">Gasthof zum Schwanen</span>
+                <a href="https://gasthofzumschwanen.com" target="_blank" rel="noreferrer">Gasthof zum Schwanen</a>
+              </div>
+              <div class="travel-card" data-lang="pl">
+                <span class="travel-label">Gasthof zum Schwanen</span>
+                <a href="https://gasthofzumschwanen.com" target="_blank" rel="noreferrer">Gasthof zum Schwanen</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" id="travel">
+          <div class="section-title">
+            <p class="eyebrow" data-lang="de">Anreise</p>
+            <p class="eyebrow" data-lang="en">Travel</p>
+            <p class="eyebrow" data-lang="pl">Dojazd</p>
+            <h2 data-lang="de">Übernachten und ankommen</h2>
+            <h2 data-lang="en">Where to stay and how to get there</h2>
+            <h2 data-lang="pl">Nocleg i dojazd</h2>
+          </div>
+
+          <div class="copy-grid">
+            <div class="copy-card" data-lang="de">
+              <p>
+                Falls ihr von weiter weg anreist, findet ihr in der Nähe geeignete
+                Übernachtungsmöglichkeiten. Meldet euch gern bei Fragen zur Anreise.
+              </p>
+            </div>
+            <div class="copy-card" data-lang="en">
+              <p>
+                If you are travelling from further away, you will find suitable overnight
+                options nearby. Feel free to reach out if you have any travel questions.
+              </p>
+            </div>
+            <div class="copy-card" data-lang="pl">
+              <p>
+                Jeśli przyjeżdżacie z dalsza, w pobliżu znajdziecie odpowiednie miejsca na
+                nocleg. W razie pytań dotyczących dojazdu napiszcie do nas.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" id="rsvp">
+          <div class="section-title">
+            <p class="eyebrow" data-lang="de">RSVP</p>
+            <p class="eyebrow" data-lang="en">RSVP</p>
+            <p class="eyebrow" data-lang="pl">RSVP</p>
+            <h2 data-lang="de">Bitte gebt uns Bescheid</h2>
+            <h2 data-lang="en">Please let us know</h2>
+            <h2 data-lang="pl">Dajcie nam proszę znać</h2>
+          </div>
+
+          <div class="rsvp-layout">
+            <div class="copy-card" data-lang="de">
+              <p>RSVP bis Freitag, 31. Mai 2024.</p>
+              <p>Vielen Dank, dass ihr uns bei der Planung helft.</p>
+            </div>
+            <div class="copy-card" data-lang="en">
+              <p>RSVP by Friday, 31 May 2024.</p>
+              <p>Thank you for helping us plan the day.</p>
+            </div>
+            <div class="copy-card" data-lang="pl">
+              <p>RSVP do piątku, 31 maja 2024.</p>
+              <p>Dziękujemy za pomoc w planowaniu.</p>
+            </div>
+
+            <div class="rsvp-action">
+              <a class="button button-primary" href="https://forms.gle/example" target="_blank" rel="noreferrer" data-lang="de">RSVP-Formular öffnen</a>
+              <a class="button button-primary" href="https://forms.gle/example" target="_blank" rel="noreferrer" data-lang="en">Open RSVP form</a>
+              <a class="button button-primary" href="https://forms.gle/example" target="_blank" rel="noreferrer" data-lang="pl">Otwórz formularz RSVP</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" id="faq">
+          <div class="section-title">
+            <p class="eyebrow" data-lang="de">FAQ</p>
+            <p class="eyebrow" data-lang="en">FAQ</p>
+            <p class="eyebrow" data-lang="pl">FAQ</p>
+            <h2 data-lang="de">Häufige Fragen</h2>
+            <h2 data-lang="en">Frequently asked questions</h2>
+            <h2 data-lang="pl">Najczęściej zadawane pytania</h2>
+          </div>
+
+          <div class="faq-grid">
+            <details class="faq-item" data-lang="de">
+              <summary>Was sollte ich tragen?</summary>
+              <p>Festlich, elegant und gerne mit bequemen Schuhen.</p>
+            </details>
+            <details class="faq-item" data-lang="en">
+              <summary>What should I wear?</summary>
+              <p>Festive, elegant attire with comfortable shoes is a good choice.</p>
+            </details>
+            <details class="faq-item" data-lang="pl">
+              <summary>W co powinienem się ubrać?</summary>
+              <p>Elegancko i odświętnie, najlepiej też w wygodnych butach.</p>
+            </details>
+
+            <details class="faq-item" data-lang="de">
+              <summary>Gibt es einen Kleidungscode?</summary>
+              <p>Es gibt keinen strengen Dresscode, aber wir freuen uns über elegante Kleidung.</p>
+            </details>
+            <details class="faq-item" data-lang="en">
+              <summary>Is there a dress code?</summary>
+              <p>There is no strict dress code, but we would love for you to dress elegantly.</p>
+            </details>
+            <details class="faq-item" data-lang="pl">
+              <summary>Czy obowiązuje dress code?</summary>
+              <p>Nie ma ścisłego dress code'u, ale będzie nam miło zobaczyć eleganckie stylizacje.</p>
+            </details>
+
+            <details class="faq-item" data-lang="de">
+              <summary>Kann ich einen Gast mitbringen?</summary>
+              <p>Bitte prüft dafür euer RSVP-Formular oder sprecht uns direkt an.</p>
+            </details>
+            <details class="faq-item" data-lang="en">
+              <summary>Can I bring a guest?</summary>
+              <p>Please check your RSVP details or contact us directly.</p>
+            </details>
+            <details class="faq-item" data-lang="pl">
+              <summary>Czy mogę zabrać osobę towarzyszącą?</summary>
+              <p>Sprawdźcie proszę formularz RSVP albo skontaktujcie się z nami bezpośrednio.</p>
+            </details>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer panel">
+        <div data-lang="de">
+          <p>Jasmin & Adam · 15. Juni 2024</p>
+          <p>Wir freuen uns darauf, mit euch zu feiern.</p>
+        </div>
+        <div data-lang="en">
+          <p>Jasmin & Adam · 15 June 2024</p>
+          <p>We look forward to celebrating with you.</p>
+        </div>
+        <div data-lang="pl">
+          <p>Jasmin & Adam · 15 czerwca 2024</p>
+          <p>Z niecierpliwością czekamy na wspólne świętowanie.</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
